@@ -2,7 +2,7 @@
 
 ## Orbit or its icon does not open
 
-Start the Orbit payload through your manager, then reopen the Media-tab icon. The icon opens a running Orbit server and cannot start a stopped payload. If the icon was deleted, starting Orbit recreates its owned shortcut. Avoid deleting Orbit’s saved data when updating.
+Start the Orbit payload through your manager, then reopen the Media-tab icon. The icon opens a running Orbit server and cannot start a stopped payload. If the icon was deleted, starting Orbit recreates it. Keep Orbit’s saved data when updating.
 
 From another device, use `http://<ps5-ip>:34177/` on the same local network. Keep that port private to your LAN.
 
@@ -12,7 +12,7 @@ The Games-row app needs **kstuff and ShadowMountPlus**. Check that `PPSA99177.ff
 
 If the app says Orbit is not running, start your ELF loader on **port 9021** and choose **Try again**, or launch `orbit_store.elf` through your payload manager. The app never stops another running payload to make room.
 
-For missing artwork in the TV app, check the running service version in the browser's **App settings → Update / reinstall**. Use **0.6.0 or later**; older services do not provide its artwork endpoint. Stop Orbit and start the new saved or bundled service. Installing the new FFPKG alone does not replace a service already running.
+For missing artwork in the TV app, check the running service version in the browser's **App settings → Update / reinstall**. Use **0.6.0 or later**; older services cannot load artwork for the TV app. Stop Orbit and start the updated service. Installing the new FFPKG alone does not replace a service already running.
 
 If ShadowMount reports **TitleDir bridge unavailable**, its app-registration bridge is not ready. Close active games, restart the console when convenient, run your usual jailbreak and ShadowMount setup, then retry registration of the existing FFPKG. If it persists, include ShadowMount's version and the relevant registration errors from its debug log in your report.
 
@@ -48,9 +48,9 @@ Artwork comes from external URLs. Orbit tries an available fallback when the pri
 
 Open **App settings → Diagnostics → View diagnostics**, then **Copy diagnostic report**. If automatic copying is unavailable, Orbit shows selectable report text. Reports omit pairing codes, access tokens, download links, game names and paths. Nothing is sent automatically.
 
-![App settings with local diagnostics](../assets/0.8.0/desktop-diagnostics.jpg)
+![App settings with local diagnostics](../assets/0.9.0/desktop-diagnostics.jpg)
 
-*You choose whether to copy and share a report. The screenshot shows the local 0.8.0 interface preview with sample console responses.*
+*You choose whether to copy and share a report. This interface preview uses example diagnostic data.*
 
 When reporting a problem in [Issues](https://github.com/saawant12/orbit-store-ps5/issues), include the Orbit version, PS5 firmware, loader, the steps taken and the displayed error. Remove any private details before posting. The reported etaHEN payload-toggle interaction remains under investigation.
 

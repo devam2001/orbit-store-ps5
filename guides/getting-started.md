@@ -28,9 +28,9 @@ To use optional TorBox downloads in 0.8.0, connect your account in the browser�
 
 A drive connected to your phone or computer is not a PS5 destination. Attach your external drive to the console; Orbit uses its `homebrew` folder when available.
 
-![Choose download sources and acknowledge the notice](../assets/0.8.0/desktop-sources.jpg)
+![Choose download sources and acknowledge the notice](../assets/0.9.0/desktop-sources.jpg)
 
-*Sources are your choice. Turning one off later hides its options and pauses unfinished downloads without deleting files. Screenshots show the browser interface with local sample console and storage data.*
+*Sources are your choice. Turning one off later hides its options and pauses unfinished downloads without deleting files. Interface previews use example storage data.*
 
 ## Choose your language
 
@@ -39,11 +39,11 @@ A drive connected to your phone or computer is not a PS5 destination. Attach you
 - **Native TV app:** Orbit follows your PS5’s system language when it starts. Change the console language in **Settings → System → Language → Console Language**, then close and reopen Orbit. Unsupported languages use English.
 - **Browser, phone or computer:** open **App settings → Language**. Choose a language, or **Automatic** to follow your browser’s preference. The interface reloads after you choose. This preference is saved for that browser; it does not change other paired devices or the PS5’s system language.
 
-![Browser App settings with the language selector open](../assets/0.8.0/desktop-language.jpg)
+![Browser App settings with the language selector open](../assets/0.9.0/desktop-language.jpg)
 
-<img src="../assets/0.8.0/phone-language.jpg" width="300" alt="The Language setting near the top of App settings on a phone">
+<img src="../assets/0.9.0/phone-language.jpg" width="300" alt="The Language setting near the top of App settings on a phone">
 
-*Local previews of the 0.8.0 interface. Scroll the language list to see all ten choices. Game names, descriptions and provider pages may keep their original language. Changing Orbit’s language does not change a downloaded game’s language.*
+*Interface previews for Orbit 0.9.0. Scroll the language list to see all ten choices. Game names, descriptions and provider pages may keep their original language. Changing Orbit’s language does not change a downloaded game’s language.*
 
 ## Choose a default drive
 
@@ -78,7 +78,7 @@ The following steps apply to the browser version. The download service and nativ
 
 **Running**, **Saved for next start**, and **Latest release** are separate. Uploading a new ELF while Orbit is running saves it for the next start; it does not change the active session. A manually imported copy outside sync must be replaced yourself. Keep the icon and saved data.
 
-![App settings with separate controls for the download service and TV app](../assets/0.8.0/desktop-settings.jpg)
+![App settings with separate controls for the download service and TV app](../assets/0.9.0/desktop-settings.jpg)
 
 *App updates install features and fixes. Refresh catalogue updates game data without reinstalling the app.*
 
